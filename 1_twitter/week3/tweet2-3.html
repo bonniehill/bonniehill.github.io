@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tweet 2 Week 2</title>
+	<style type="text/css">
+		.box1{
+			width:300px;
+			height:50px;
+			background-color:deeppink;
+			font-family:courier;
+			font-size:25px;
+			text-align:center;
+			line-height:50px;
+			position:relative;
+			animation: mymove 6s infinite;
+			animation-direction:alternate;
+			letter-spacing:1px;
+		}
+
+		.box2{
+			width:300px;
+			height:50px;
+			background-color:gold;
+			font-family:courier;
+			font-size:25px;
+			text-align:center;
+			line-height:50px;
+			position:relative;
+			animation: mymove 6s infinite;
+			animation-direction:alternate;
+			letter-spacing:1px;
+		}
+
+		.text5{
+			font-size:15px;
+		}
+
+		.text1{
+			animation-timing-function: linear;
+		}
+		.text2{
+			animation-timing-function: ease;
+		}
+		.text3{
+			animation-timing-function: ease-in;
+		}
+		.text4{
+			animation-timing-function: ease-out;
+		}
+		.text5{
+			animation-timing-function: ease-in-out;
+		}
+
+		@keyframes mymove {
+  		from{
+  			left: 0px;
+  		}
+  		to {
+  			left: 300px;
+  		}
+
+	</style>
+</head>
+<body>
+<div class="text1 box1">
+	Take some time
+</div>
+<div class="text2 box2">
+	to adjust your
+</div>
+<div class="text3 box1">
+	posture
+</div> 
+<div class="text4 box2">
+	please
+</div>
+<div class="text5 box1">
+	11:15AM 21/03/2019
+</div>
+</body>
+</html>

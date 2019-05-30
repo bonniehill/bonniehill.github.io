@@ -1,0 +1,25 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+
+.main {
+	padding: 10px;
+}
+
+.title {
+	font-size: 64px;
+}
+
+.width-50 {
+	width:50%;
+}
+
+img {
+	width: 100%;
+}

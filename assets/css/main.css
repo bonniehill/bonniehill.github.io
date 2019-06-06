@@ -1,25 +1,87 @@
 body {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
+	background-color:#000;
+	font-family:arial;
+	color:white;
+	margin:auto;
 }
 
-a {
+a{
+	color:white;
+
+}
+
+a:hover{
+	color:red;
+	text-decoration:none;
+}
+
+.title{
+	font-size:50px;
+	text-align:center;
+	letter-spacing:5px;
+	font-weight:bold;
+	padding:40px;
+}
+
+.book{
+	width:600px;
+	margin:auto;
+	padding:10px;
+}
+
+.main{
+	
+}
+
+img{
+	width:100%;
+}
+
+.caption{
+	font-size:12px;
+	text-align:center;
+	line-height:17px;
+	letter-spacing:1px;
 	color:red;
 }
 
-
-.main {
-	padding: 10px;
+.buy{
+	font-size:12px;
+	top:10px;
+	right:10px;
+	line-height:17px;
+	position:fixed;
 }
 
-.title {
-	font-size: 64px;
+.description{
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	bottom:0px;
+	left:10px;
+	width:270px;
+	line-height:17px;
+	position:fixed;
 }
 
-.width-50 {
-	width:50%;
+.colophon{
+	font-size:12px;
+	text-align:right;
+	letter-spacing:1px;
+	bottom:0px;
+	right:10px;
+	line-height:15px;
+	position:fixed;
 }
 
-img {
-	width: 100%;
+.popup1{
+
+}
+
+.popup2{
+
+}
+
+.popup3{
+
 }
